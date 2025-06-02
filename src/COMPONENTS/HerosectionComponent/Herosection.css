@@ -1,0 +1,79 @@
+.heroContainer{
+    width: 100%;
+    height: 90dvh;
+    aspect-ratio: 16/9;
+    position: relative;
+}
+.heroContainer::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15,0.5);
+}
+.heroContainer Img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.BigHeaderline{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    animation: fadeIn .3s ease-in-out ;
+    transition: all .3s ease-in-out;
+}
+
+.BigHeaderline h1{
+    color: var(--Background);
+    font-size: var(--headerFontSize);
+}
+.BigHeaderline h3{
+    color: var(--Background);
+}
+.Hero-button{
+    margin-top: 25px;
+    padding: 0.6rem;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid var(--Accent);
+    color: var(--Background);
+    cursor: pointer;
+}
+.Hero-button:hover{
+  background-color: var(--Accent);
+  color: var(--Background);
+  border: 2px solid var(--Background);
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .heroContainer{
+        width: 100%;
+        height: 75dvh;
+    }
+    .BigHeaderline{
+       width: 70%;
+       height: 200px;
+       margin-top: 30px;
+       top: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .heroContainer{
+        width: 100%;
+        height: 70dvh;
+    }
+    .BigHeaderline{
+       width: 100%;
+       height: 200px;
+       margin-top: 30px;
+       top: 50%;
+       padding: 0 0.5rem;
+    }
+}

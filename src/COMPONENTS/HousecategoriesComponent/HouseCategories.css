@@ -1,0 +1,22 @@
+.HousecategoryContainer {
+  background-color: white;
+  border: 1.5px solid rgba(128, 128, 128, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+.HousecategoryContainer h2 {
+  padding: 0.5rem 0;
+}
+.Housecategories{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+   gap: 0.6rem;
+   padding: 0.4rem 0;
+}
+.Housecategories p{
+    display: inline;
+    cursor: pointer;
+}
+.Housecategories p:hover{
+    background-color: lightgrey;
+}

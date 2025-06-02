@@ -1,0 +1,10 @@
+.BreadcrumbConatiner{
+    padding: 1rem 0.5rem;
+    margin-top: 10px;
+    width: 100%;
+    color: grey;
+}
+.breadcrumblink{
+  color: grey;
+  text-decoration: none;
+}

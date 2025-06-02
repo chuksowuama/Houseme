@@ -1,0 +1,34 @@
+.whyChooseUs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.2rem;
+}
+.whyInfo ul{
+  list-style-type: none;
+}
+.whyInfo ul li{
+    padding: 0.2rem 0;
+  }
+.whyImg{
+    width: 100%;
+    height: 400px;
+}
+
+.whyImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 1rem 1rem 0;
+    filter: brightness(0.7);
+}
+
+@media screen and (max-width: 600px) {
+    .whyChooseUs{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .whyImg img{
+        border-radius:0;
+    }
+    
+}

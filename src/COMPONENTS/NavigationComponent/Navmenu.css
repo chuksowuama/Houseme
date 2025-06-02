@@ -1,0 +1,171 @@
+:root {
+  --font--merriweather-sans: "merriweather-sans<uniquifier>";
+  --primary-Color: #424ef5;
+  --Secondary: #63b3ed;
+  --Background: #f7fafc;
+  --Accent: #38b2ac;
+  --text: #2d3748;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(66, 78, 245, 0.1);
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.navmobile{
+  background-color:rgba(66, 78, 245);
+}
+.navTablet{
+  background-color: #424ef5;
+}
+
+.logondHeader {
+  width: 100px;
+  height: 90px;
+}
+.logondHeader img {
+  width: 100%;
+  height: 100%;
+}
+#NaviconOpen  {
+  display: none;
+  font-size: 1.5rem;
+  color: #f7fafc;
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 1rem;
+}
+.navslideHeader{
+    display: none;
+}
+.navMenu li {
+  padding: 0.1rem 0.7rem;
+}
+.navMenu .NavLinks {
+  color: white;
+  text-decoration: none;
+}
+.navMenu .NavLinks:active {
+  color: grey;
+}
+.navMenu li:nth-last-of-type(1) {
+display: none;
+}
+.navMenu li:nth-last-of-type(2) {
+display: none;
+}
+.signInlogin{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+.signInlogin button{
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.signInlogin button:hover{
+  box-shadow:  0 0 10px black;
+}
+.signInlogin .SignUpLink{
+  background-color: var(--Accent);
+  color: var(--Background);
+  border: none;
+  height: 100%;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .navMenu li {
+    padding: 0.1rem 0.7rem;
+    white-space: nowrap;
+  }
+}
+
+
+/* ________________________________________________________ */
+
+@media (max-width: 600px) {
+  #NaviconOpen {
+    display: block;
+    cursor: pointer;
+  }
+  #NaviconClose{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 1.5rem;
+    color: #2d3748;
+    cursor: pointer;
+  }
+  .navMenu {
+    position: absolute;
+    right: -100%;
+    top: 20px;
+    height: 100dvh;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .navactive {
+    right: 0;
+  }
+  .navslideHeader{
+    display: block;
+    margin-bottom: 40px;
+}
+.navslideHeader h1{
+    color: #424ef5;
+}
+  .navMenu li {
+    width: 100%;
+    padding: 0;
+    padding: 0.2rem 0;
+  }
+  .navMenu .NavLinks {
+    width: 100%;
+    height:50px;
+    display: block;
+    padding: 1rem 0.7rem;
+    color: #2d3748;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .2s ease-out;
+  }
+  .navMenu .NavLinks:hover {
+    background-color: #56ada9;
+    padding: 1rem 0.7rem;
+    border-bottom: 1px solid gray;
+    color:#f7fafc;;
+  }
+  .signInlogin{
+    width: 100px;
+    height: 110px;
+    gap: 0.9rem;
+    flex-direction: column;
+    width:70%;
+    margin-top: 40px;
+  }
+  .signInlogin button{
+    padding:0.7rem;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Duplex",
+    "location": "Enugu",
+    "price": 5780,
+    "bedrooms": 3,
+    "image": "/img/property-1.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": false
+  },
+  {
+    "id": 2,
+    "title": "Cozy Studio",
+    "location": "Port Harcourt",
+    "price": 12810,
+    "bedrooms": 3,
+    "image": "/img/property-2.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": false
+  },
+  {
+    "id": 3,
+    "title": "Spacious Apartment",
+    "location": "Ibadan",
+    "price": 18250,
+    "bedrooms": 1,
+    "image": "/img/property-3.webp",
+    "description": "Fully equipped kitchen, modern bath, and great view.",
+    "isVerified": false
+  },
+  {
+    "id": 4,
+    "title": "Modern Bungalow",
+    "location": "Lagos",
+    "price": 25840,
+    "bedrooms": 1,
+    "image": "/img/property-4.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": false
+  },
+  {
+    "id": 5,
+    "title": "Spacious Apartment",
+    "location": "Ibadan",
+    "price": 22640,
+    "bedrooms": 4,
+    "image": "/img/property-5.webp",
+    "description": "Quiet environment with 24/7 power and water.",
+    "isVerified": true
+  },
+  {
+    "id": 6,
+    "title": "Cozy Studio",
+    "location": "Ibadan",
+    "price": 16890,
+    "bedrooms": 2,
+    "image": "/img/property-6.webp",
+    "description": "A well-furnished home close to the city center.",
+    "isVerified": true
+  },
+  {
+    "id": 7,
+    "title": "Luxury Duplex",
+    "location": "Benin City",
+    "price": 22290,
+    "bedrooms": 1,
+    "image": "/img/property-1.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": false
+  },
+  {
+    "id": 8,
+    "title": "Serviced Apartment",
+    "location": "Kano",
+    "price": 26850,
+    "bedrooms": 2,
+    "image": "/img/property-2.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  },
+  {
+    "id": 9,
+    "title": "Serviced Apartment",
+    "location": "Kano",
+    "price": 17770,
+    "bedrooms": 2,
+    "image": "/img/property-3.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": false
+  },
+  {
+    "id": 10,
+    "title": "Family Flat",
+    "location": "Lagos",
+    "price": 12160,
+    "bedrooms": 1,
+    "image": "/img/property-4.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  },
+  {
+    "id": 11,
+    "title": "Cozy Studio",
+    "location": "Ibadan",
+    "price": 12300,
+    "bedrooms": 4,
+    "image": "/img/property-5.webp",
+    "description": "Ideal for young professionals or students.",
+    "isVerified": false
+  },
+  {
+    "id": 12,
+    "title": "Spacious Apartment",
+    "location": "Benin City",
+    "price": 8300,
+    "bedrooms": 3,
+    "image": "/img/property-6.webp",
+    "description": "Ideal for young professionals or students.",
+    "isVerified": false
+  },
+  {
+    "id": 13,
+    "title": "Cozy Studio",
+    "location": "Enugu",
+    "price": 16090,
+    "bedrooms": 2,
+    "image": "/img/property-1.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": false
+  },
+  {
+    "id": 14,
+    "title": "Family Flat",
+    "location": "Lagos",
+    "price": 19630,
+    "bedrooms": 3,
+    "image": "/img/property-2.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  },
+  {
+    "id": 15,
+    "title": "Modern Bungalow",
+    "location": "Abuja",
+    "price": 7610,
+    "bedrooms": 4,
+    "image": "/img/property-3.webp",
+    "description": "Ideal for young professionals or students.",
+    "isVerified": false
+  },
+  {
+    "id": 16,
+    "title": "Cozy Studio",
+    "location": "Port Harcourt",
+    "price": 5020,
+    "bedrooms": 2,
+    "image": "/img/property-4.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": false
+  },
+  {
+    "id": 17,
+    "title": "Modern Bungalow",
+    "location": "Benin City",
+    "price": 28250,
+    "bedrooms": 1,
+    "image": "/img/property-5.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  },
+  {
+    "id": 18,
+    "title": "Modern Bungalow",
+    "location": "Benin City",
+    "price": 27370,
+    "bedrooms": 4,
+    "image": "/img/property-6.webp",
+    "description": "Ideal for young professionals or students.",
+    "isVerified": false
+  },
+  {
+    "id": 19,
+    "title": "Modern Bungalow",
+    "location": "Lagos",
+    "price": 18120,
+    "bedrooms": 1,
+    "image": "/img/property-1.webp",
+    "description": "Quiet environment with 24/7 power and water.",
+    "isVerified": false
+  },
+  {
+    "id": 20,
+    "title": "Family Flat",
+    "location": "Enugu",
+    "price": 17050,
+    "bedrooms": 1,
+    "image": "/img/property-2.webp",
+    "description": "Fully equipped kitchen, modern bath, and great view.",
+    "isVerified": false
+  },
+  {
+    "id": 21,
+    "title": "Modern Bungalow",
+    "location": "Ibadan",
+    "price": 29550,
+    "bedrooms": 1,
+    "image": "/img/property-3.webp",
+    "description": "Ideal for young professionals or students.",
+    "isVerified": false
+  },
+  {
+    "id": 22,
+    "title": "Luxury Duplex",
+    "location": "Lagos",
+    "price": 6610,
+    "bedrooms": 4,
+    "image": "/img/property-4.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  },
+  {
+    "id": 23,
+    "title": "Spacious Apartment",
+    "location": "Enugu",
+    "price": 28880,
+    "bedrooms": 2,
+    "image": "/img/property-5.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": false
+  },
+  {
+    "id": 24,
+    "title": "Cozy Studio",
+    "location": "Ibadan",
+    "price": 6350,
+    "bedrooms": 2,
+    "image": "/img/property-6.webp",
+    "description": "Fully equipped kitchen, modern bath, and great view.",
+    "isVerified": true
+  },
+  {
+    "id": 25,
+    "title": "Serviced Apartment",
+    "location": "Kano",
+    "price": 5680,
+    "bedrooms": 2,
+    "image": "/img/property-1.webp",
+    "description": "Quiet environment with 24/7 power and water.",
+    "isVerified": false
+  },
+  {
+    "id": 26,
+    "title": "Cozy Studio",
+    "location": "Abuja",
+    "price": 28440,
+    "bedrooms": 2,
+    "image": "/img/property-2.webp",
+    "description": "A well-furnished home close to the city center.",
+    "isVerified": false
+  },
+  {
+    "id": 27,
+    "title": "Luxury Duplex",
+    "location": "Port Harcourt",
+    "price": 22770,
+    "bedrooms": 3,
+    "image": "/img/property-3.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": true
+  },
+  {
+    "id": 28,
+    "title": "Luxury Duplex",
+    "location": "Enugu",
+    "price": 25400,
+    "bedrooms": 4,
+    "image": "/img/property-4.webp",
+    "description": "Fully equipped kitchen, modern bath, and great view.",
+    "isVerified": true
+  },
+  {
+    "id": 29,
+    "title": "Luxury Duplex",
+    "location": "Port Harcourt",
+    "price": 15670,
+    "bedrooms": 4,
+    "image": "/img/property-5.webp",
+    "description": "Spacious rooms with parking and security.",
+    "isVerified": true
+  },
+  {
+    "id": 30,
+    "title": "Modern Bungalow",
+    "location": "Abuja",
+    "price": 13610,
+    "bedrooms": 3,
+    "image": "/img/property-6.webp",
+    "description": "Affordable and move-in ready.",
+    "isVerified": true
+  }
+]

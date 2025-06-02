@@ -1,0 +1,19 @@
+.CallToAction{
+    padding: 1.1rem 0;
+    text-align: center;
+    line-height: 2.1rem;
+    background: linear-gradient(90deg, #2B6CB0, #63B3ED);
+    color: #ffffff;
+  }
+  .ctaHeader{
+    font-size: 2rem;
+  }
+  .CallToAction button {
+    background-color: #38B2AC; /* Teal Accent */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+  }

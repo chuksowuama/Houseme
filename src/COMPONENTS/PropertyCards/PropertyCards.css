@@ -1,0 +1,38 @@
+
+.CardLink{
+    text-decoration: none;
+    color: var(--text);
+}
+.propsCards{
+    background-color: white;
+    cursor: pointer;
+}
+.imgContainer{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .6s ease-in-out;
+    filter: brightness(0.6);
+    border-radius: 10px 10px 0 0;
+}
+.imgContainer img:hover{
+   transform: scale(1.1);
+   filter: brightness(1);
+   border-radius: 5px 5px 0 0;
+}
+.currency{
+    font-size: 0.9rem;
+}
+.titleandprice{
+    padding: 0.8rem 0.5rem;
+    line-height: 1.6rem;
+}
+.titleandprice h4{
+   color: var(--Accent);
+}

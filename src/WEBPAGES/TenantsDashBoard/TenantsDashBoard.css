@@ -1,0 +1,49 @@
+.header-content{
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dashboard-sideba{
+    border: 3px solid yellow;
+}
+.dashboard-sidebar{
+    border: 3px solid red;
+
+}
+.sidebar-nav{
+    width: 100px;
+    height: 400px;
+    text-align: right;
+    border: 3px solid green;
+    z-index: 1;
+    top: 70px;
+    position: static;
+    right: 30px;
+}
+.sidebar-nav ul{
+  width: 100%;
+  display: flex;
+}
+.tenantsProfile{
+  display: none;
+}
+.propertyimage{
+  height: 400px;
+  position: relative;
+}
+.propertyimage img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.btn-favorite{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}

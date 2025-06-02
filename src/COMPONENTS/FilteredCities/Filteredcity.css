@@ -1,0 +1,37 @@
+.filteredcityContainer {
+  background-color: white;
+  border: 1.5px solid rgba(128, 128, 128, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+.filteredcityContainer h2 {
+  padding: 0.5rem 0;
+}
+.filteredcity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+.filteredcity p {
+  color: gray;
+  cursor: pointer;
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+  .filteredcityContainer {
+    width: 80%;
+    margin: auto 15%;
+    padding: 1rem;
+  }
+  .filteredcity {
+    gap: 0.6rem;
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 600px) {
+  .filteredcity {
+    gap: 0.6rem;
+    padding: 0.5rem 1.2rem;
+  }
+}

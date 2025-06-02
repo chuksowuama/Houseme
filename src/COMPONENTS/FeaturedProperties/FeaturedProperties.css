@@ -1,0 +1,22 @@
+.FeaturedProps{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.4rem;
+}
+.seemore{
+    text-align: right;
+    font-weight: 600;
+    color: var(--primary-Color);
+    cursor: pointer;
+}
+.FeaturedpropsCards{
+    background-color: white;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .FeaturedProps{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.5rem;
+}
+}

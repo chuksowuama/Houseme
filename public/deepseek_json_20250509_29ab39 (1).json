@@ -1,0 +1,639 @@
+{
+  "listings": [
+    {
+      "id": "ng-prop-001",
+      "title": "Luxury 4-Bedroom Apartment in Victoria Island",
+      "details": "Fully furnished • 24/7 security • Swimming pool • Gym • Smart home",
+      "description": "This exquisite 4-bedroom apartment on Banana Island offers unparalleled luxury living in Lagos' most prestigious neighborhood. The 350sqm space features marble floors throughout, floor-to-ceiling windows with panoramic ocean views, and a gourmet kitchen with imported Italian appliances. The master suite includes a walk-in closet and spa-style bathroom with Jacuzzi. Residents enjoy access to a state-of-the-art fitness center, 25m infinity pool, and 24-hour concierge service. The building features biometric security, backup power, and fiber internet. Located steps from upscale restaurants like Ocean Basket and The Place, this is perfect for executives who demand the finest. The property has been meticulously maintained with quarterly deep cleaning services. Landlord Mr. Adebayo (15 years experience) is known for his responsiveness and attention to tenant needs.",
+      "image": "/housemeproperties/2ac12a3f-129b-4258-a5ce-a6cc3fca7cf5.jpeg",
+      "landlord": {
+        "name": "Mr. Adebayo Ogunlesi",
+        "phone": "+2348012345678",
+        "email": "adebayo@propertyluxe.ng",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "rating": 4.9,
+        "years_active": 15
+      },
+      "price": 120000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 4,
+      "category": "Apartment",
+      "address": "12A Banana Island, Victoria Island, Lagos"
+    },
+    {
+      "id": "ng-prop-002",
+      "title": "3-Bedroom Duplex in Maitama",
+      "details": "Spacious layout • Maid's quarters • Lush garden • Secure parking",
+      "description": "This beautifully designed 3-bedroom duplex in Abuja's diplomatic district offers 280sqm of refined living space. The property features a grand foyer with chandelier, formal dining room that seats 12, and a chef's kitchen with butler's pantry. The upstairs master wing includes a private balcony overlooking the landscaped garden with fountain. Staff accommodations include a self-contained BQ with separate entrance. The neighborhood is home to ambassadors and government officials, with armed security patrols every 2 hours. Located 5 minutes from Transcorp Hilton and Silverbird Cinemas. Landlord Hajia Fatima maintains the property to international standards and provides optional housekeeping services. Recent upgrades include solar panels and smart home automation. Ideal for diplomatic families seeking security and prestige.",
+      "image": "/housemeproperties/_📌SPACIOUS CONTEMPORARY 5 BEDROOMS FULLY DETACHED DUPLEX WITH SWIMMING POOL AND 2 OPEN TERRACE📌_.jpeg",
+      "landlord": {
+        "name": "Hajia Fatima Bello",
+        "phone": "+2348098765432",
+        "email": "hajiafatima@abujahomes.ng",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg",
+        "rating": 4.7,
+        "years_active": 8
+      },
+      "price": 850000,
+      "currency": "NGN",
+      "location": "Abuja",
+      "bedroom": 3,
+      "category": "Duplex",
+      "address": "45 Maitama Avenue, Abuja"
+    },
+    {
+      "id": "ng-prop-003",
+      "title": "2-Bedroom Flat in GRA Port Harcourt",
+      "details": "New construction • 24/7 electricity • Smart lighting • Fiber internet",
+      "description": "This contemporary 2-bedroom flat in Port Harcourt's Government Reserved Area offers 120sqm of modern living space designed for young professionals. The open-concept living area flows into a sleek kitchen with quartz countertops and breakfast bar. Both bedrooms feature ensuite bathrooms with rain showers. The building includes a rooftop terrace with city views, co-working space, and resident's gym. Located 10 minutes from SPAR and Novare Mall, with easy access to major oil company offices. Landlord Engineer Williams built this property in 2022 using premium materials and offers flexible lease terms. The neighborhood is quiet yet convenient, with reliable municipal power and water supply. Perfect for expatriates or returning Nigerians seeking comfortable, low-maintenance living.",
+      "image": "public/housemeproperties/List of Detached Bungalows for Sale in Thomas Estate, Ajah, Lagos (5) (1).webp",
+      "landlord": {
+        "name": "Engineer Williams Briggs",
+        "phone": "+2348055551234",
+        "email": "e.williams@phcityproperties.com",
+        "image": "https://randomuser.me/api/portraits/men/32.jpg",
+        "rating": 4.8,
+        "years_active": 5
+      },
+      "price": 450000,
+      "currency": "NGN",
+      "location": "Port Harcourt",
+      "bedroom": 2,
+      "category": "Flat",
+      "address": "17 Olu Obasanjo Road, GRA Phase 2"
+    },
+    {
+      "id": "ng-prop-004",
+      "title": "5-Bedroom Mansion in Lekki Phase 1",
+      "details": "Smart home • Cinema room • Staff quarters • Solar power",
+      "description": "This palatial 5-bedroom mansion in Lekki's most exclusive enclave spans 800sqm of living space on a 1,200sqm plot. The property features a grand double staircase entrance, home theater with 12 recliner seats, and a commercial-grade kitchen. The master suite occupies an entire wing with his-and-hers bathrooms and dressing rooms. Outdoors includes a heated Olympic-sized pool, tennis court, and landscaped gardens with gazebo. The basement contains a 10-car garage and panic room. Landlord Chief Okonkwo (20 years in luxury real estate) provides dedicated property management staff including gardener, pool attendant and security team. Located on a secured street with other high-profile residents, this is Lagos' ultimate status property.",
+      "image": "/housemeproperties/3c08760f-8b02-474b-9010-ef7a40b025ca.jpeg",
+      "landlord": {
+        "name": "Chief Emeka Okonkwo",
+        "phone": "+2348023456789",
+        "email": "c.okonkwo@lekkipremier.ng",
+        "image": "https://randomuser.me/api/portraits/men/70.jpg",
+        "rating": 5.0,
+        "years_active": 20
+      },
+      "price": 250000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 5,
+      "category": "Mansion",
+      "address": "8 Admiralty Way, Lekki Phase 1"
+    },
+    {
+      "id": "ng-prop-005",
+      "title": "1-Bedroom Apartment in Surulere",
+      "details": "Renovated • Secure estate • Backup generator • Walk to amenities",
+      "description": "This charming 1-bedroom apartment in Surulere's Golden Estate offers 45sqm of thoughtfully designed space perfect for singles or young couples. The open-plan living area features built-in shelving and a kitchenette with breakfast bar. The bedroom fits a queen bed with storage underneath, and the bathroom has modern fixtures. The gated community includes 24-hour security, shared generator, and weekly garbage collection. Located 5 minutes walk from National Stadium with its gym and pool facilities, and 10 minutes from Surulere's famous restaurants like Yellow Chilli. Landlord Mrs. Johnson (10 years renting to young professionals) is known for quick maintenance response and allows light personalization of units. Ideal for first-time renters seeking safety and convenience.",
+      "image": "housemeproperties/ROSELINE APARTMENTS.jpeg",
+      "landlord": {
+        "name": "Mrs. Folake Johnson",
+        "phone": "+2348076543210",
+        "email": "fjohnson@goldenestate.ng",
+        "image": "https://randomuser.me/api/portraits/women/60.jpg",
+        "rating": 4.6,
+        "years_active": 10
+      },
+      "price": 180000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 1,
+      "category": "Apartment",
+      "address": "25 Adeniran Ogunsanya St, Surulere"
+    },
+    {
+      "id": "ng-prop-006",
+      "title": "4-Bedroom Terrace House in Asokoro",
+      "details": "Diplomatic zone • Smart home • Staff quarters • Borehole",
+      "description": "This prestigious 4-bedroom terrace house in Asokoro's secure diplomatic enclave offers 320sqm of elegant living space. The property features a formal reception room with fireplace, family entertainment area, and study with custom wood paneling. The gourmet kitchen includes a walk-in pantry and breakfast nook. Upstairs, the master suite has a dressing room and balcony with city views. The basement includes a home gym and wine cellar. Landlord Alhaji Danjuma provides optional chef and driver services for tenants. The neighborhood features armed security patrols and is walking distance to embassies and international schools. Recent upgrades include smart lighting, water purification system, and backup solar power. Perfect for ambassadorial staff or corporate executives.",
+      "image": "/housemeproperties/5 Bedroom House for Sale, Lekki.jpeg",
+      "landlord": {
+        "name": "Alhaji Musa Danjuma",
+        "phone": "+2348034567890",
+        "email": "a.danjuma@abujadiplomat.ng",
+        "image": "https://randomuser.me/api/portraits/men/55.jpg",
+        "rating": 4.8,
+        "years_active": 12
+      },
+      "price": 150000,
+      "currency": "NGN",
+      "location": "Abuja",
+      "bedroom": 4,
+      "category": "Terrace House",
+      "address": "32 Diplomatic Drive, Asokoro"
+    },
+    {
+      "id": "ng-prop-007",
+      "title": "3-Bedroom Bungalow in Uyo",
+      "details": "Spacious compound • Fruit trees • Borehole • Quiet neighborhood",
+      "description": "This charming 3-bedroom bungalow in Uyo's Government Reserved Area sits on a 600sqm plot with mature mango and cashew trees. The 180sqm interior features a spacious living room with center table, formal dining area, and a practical kitchen with pantry. All bedrooms have built-in wardrobes and ensuite bathrooms. The wraparound veranda overlooks the lush garden with outdoor dining area. Landlord Professor Ekong (retired university lecturer) maintains the property meticulously and includes a gardener in the rent. Located in a quiet neighborhood of academics and professionals, just 10 minutes from University of Uyo and 15 minutes from Ibom Plaza shopping center. Ideal for families seeking space and tranquility.",
+      "image": "/housemeproperties/Top 10 most expensive property locations & houses in Nigeria - See their costs (+Photos).jpeg",
+      "landlord": {
+        "name": "Professor Edet Ekong",
+        "phone": "+2348045678901",
+        "email": "profekong@uyohomes.ng",
+        "image": "https://randomuser.me/api/portraits/men/68.jpg",
+        "rating": 4.9,
+        "years_active": 18
+      },
+      "price": 350000,
+      "currency": "NGN",
+      "location": "Uyo",
+      "bedroom": 3,
+      "category": "Bungalow",
+      "address": "14 Oron Road, Uyo"
+    },
+    {
+      "id": "ng-prop-008",
+      "title": "Executive 2-Bedroom Flat in Ikoyi",
+      "details": "Concierge service • Swimming pool • Gym • 24/7 security",
+      "description": "This premium 2-bedroom flat in Ikoyi's prestigious Dolphin Estate offers 110sqm of sophisticated living space. The interior features hardwood floors, floor-to-ceiling windows, and a modern open kitchen with breakfast bar. The master bedroom includes a walk-in closet and marble bathroom with soaking tub. Residents enjoy access to the estate's Olympic-sized pool, tennis courts, and business center. The building has 24-hour security with CCTV, backup power, and high-speed internet. Located walking distance to upscale restaurants like RSVP and The Wheatbaker Hotel. Landlord Mrs. Adeleke (12 years managing luxury properties) provides weekly cleaning services and maintains an on-call maintenance team. Perfect for expatriates or executives seeking turnkey luxury living.",
+      "image": "/housemeproperties/8dedc91d-44dd-4236-af89-6f225c68542a.jpeg",
+      "landlord": {
+        "name": "Mrs. Chioma Adeleke",
+        "phone": "+2348067890123",
+        "email": "c.adeleke@ikoyiluxury.ng",
+        "image": "https://randomuser.me/api/portraits/women/50.jpg",
+        "rating": 4.8,
+        "years_active": 12
+      },
+      "price": 1000000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 2,
+      "category": "Apartment",
+      "address": "3 Bourdillon Road, Ikoyi"
+    },
+    {
+      "id": "ng-prop-009",
+      "title": "6-Bedroom Compound in Kano",
+      "details": "Traditional design • Large courtyard • 24/7 security • Borehole",
+      "description": "This expansive 6-bedroom family compound in Kano's prestigious Nassarawa GRA spans 1,000sqm of living space arranged around a central courtyard. The property features traditional Hausa architectural elements including arched doorways, intricate plasterwork, and a majlis reception area. The separate wings include a main family house, guest quarters, and staff accommodations. The landscaped grounds feature date palms, a vegetable garden, and outdoor dining area. Landlord Alhaji Dangote (25 years in Kano real estate) provides full-time security and maintenance staff. Located in a secure neighborhood of prominent businessmen and traditional rulers, just 10 minutes from Kano's commercial district. Ideal for extended families seeking traditional luxury with modern comforts.",
+      "image": "/housemeproperties/72190cf5-3637-455f-8b8a-e45407cb5a03.webp",
+      "landlord": {
+        "name": "Alhaji Aminu Dangote",
+        "phone": "+2348078901234",
+        "email": "a.dangote@kanotraditional.ng",
+        "image": "https://randomuser.me/api/portraits/men/75.jpg",
+        "rating": 4.7,
+        "years_active": 25
+      },
+      "price": 650000,
+      "currency": "NGN",
+      "location": "Kano",
+      "bedroom": 6,
+      "category": "Compound House",
+      "address": "12 Lamido Crescent, Kano"
+    },
+    {
+      "id": "ng-prop-010",
+      "title": "Studio Apartment in Yaba",
+      "details": "Minimalist design • Shared gym • Rooftop lounge • Secure access",
+      "description": "This stylish 30sqm studio apartment in Yaba's new tech hub is perfect for young professionals. The space features a convertible sofa-bed, compact kitchenette with induction cooktop, and a smart bathroom with water-saving fixtures. The building offers co-working spaces on each floor, a shared gym, and a rooftop lounge with skyline views. Located adjacent to Co-Creation Hub and walking distance to UNILAG, it's ideal for tech entrepreneurs and graduate students. Landlord Mr. Balogun (former tech founder) has equipped the building with fiber internet and offers flexible lease terms. The neighborhood boasts trendy cafes like CCHub's Vibes and several coworking spaces. Perfect for digital nomads seeking community and convenience.",
+      "image": "/housemeproperties/aff0cdcb-ad50-4081-ad7b-60e7fc3923e2.jpeg",
+      "landlord": {
+        "name": "Mr. Femi Balogun",
+        "phone": "+2348089012345",
+        "email": "f.balogun@yabatech.ng",
+        "image": "https://randomuser.me/api/portraits/men/40.jpg",
+        "rating": 4.5,
+        "years_active": 5
+      },
+      "price": 120000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 1,
+      "category": "Studio",
+      "address": "7 Herbert Macaulay Way, Yaba"
+    },
+    {
+      "id": "ng-prop-011",
+      "title": "3-Bedroom Penthouse in Abuja",
+      "details": "Panoramic views • Smart home • Private elevator • Concierge",
+      "description": "This luxurious 3-bedroom penthouse in Abuja's tallest residential tower offers 280sqm of living space with breathtaking city views. The open-plan living area features floor-to-ceiling windows, a gourmet kitchen with marble countertops, and a dining area that seats 10. The master suite includes a private terrace, walk-in closet, and spa bathroom with rainforest shower. Building amenities include a sky lounge, infinity pool, and 24-hour concierge service. Landlord Senator Mark (10 years developing premium properties) provides optional housekeeping and chef services. Located in Central Business District, walking distance to Transcorp Hilton and Nicon Luxury. Perfect for high-net-worth individuals seeking prestige and privacy.",
+      "image": "/housemeproperties/b2354f6e-4c67-48b1-8495-61dbb2d387de.jpeg",
+      "landlord": {
+        "name": "Senator David Mark",
+        "phone": "+2348090123456",
+        "email": "d.mark@abujaskyline.ng",
+        "image": "https://randomuser.me/api/portraits/men/60.jpg",
+        "rating": 4.9,
+        "years_active": 10
+      },
+      "price": 2000000,
+      "currency": "NGN",
+      "location": "Abuja",
+      "bedroom": 3,
+      "category": "Penthouse",
+      "address": "22 Amazon Street, Maitama"
+    },
+    {
+      "id": "ng-prop-012",
+      "title": "2-Bedroom Flat in Enugu",
+      "details": "Quiet neighborhood • Water supply • Close to market • Secure",
+      "description": "This comfortable 2-bedroom flat in Enugu's Independence Layout offers 85sqm of practical living space. The unit features a bright living room with balcony, functional kitchen with ample storage, and two well-proportioned bedrooms. The compound includes a shared generator, water reservoir, and 24-hour security. Located on a quiet street just 5 minutes from Roban Stores and 10 minutes from Polo Mall. Landlord Mr. Okeke (retired civil servant) maintains the property meticulously and is known for fair treatment of tenants. The neighborhood is popular with mid-level professionals and small families seeking affordability without sacrificing security. Easy access to major government offices and schools.",
+      "image": "/housemeproperties/bb45584a-d3ac-49c0-959d-ac75f1742e63.jpeg",
+      "landlord": {
+        "name": "Mr. Chukwuma Okeke",
+        "phone": "+2348101234567",
+        "email": "c.okeke@enuguproperties.ng",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "rating": 4.6,
+        "years_active": 8
+      },
+      "price": 280000,
+      "currency": "NGN",
+      "location": "Enugu",
+      "bedroom": 2,
+      "category": "Flat",
+      "address": "5 Agbani Road, Enugu"
+    },
+    {
+      "id": "ng-prop-013",
+      "title": "4-Bedroom Villa in Calabar",
+      "details": "Ocean view • Private garden • Modern kitchen • Staff quarters",
+      "description": "This stunning 4-bedroom villa in Calabar's Marina Resort area offers 300sqm of luxurious living space with panoramic ocean views. The property features an open-plan living area with vaulted ceilings, a chef's kitchen with granite countertops, and a covered veranda perfect for outdoor dining. The master suite includes a private balcony, walk-in closet, and marble bathroom. The landscaped garden features a gazebo and small swimming pool. Landlord Mrs. Duke (15 years in hospitality) provides optional housekeeping and chef services. Located in a gated community just 5 minutes from Tinapa Business Resort and Calabar Marina. Perfect for expatriates or retirees seeking coastal luxury.",
+      "image":  "/housemeproperties/Buy Luxury 5 Bedroom Fully Detached Duplex +cinema And Bq in Ikate, Lekki Lagos  (2LRLK) _ PropertyPro_ng.jpeg",
+      "landlord": {
+        "name": "Mrs. Ekaette Duke",
+        "phone": "+2348112345678",
+        "email": "e.duke@calabarvillas.ng",
+        "image": "https://randomuser.me/api/portraits/women/55.jpg",
+        "rating": 4.8,
+        "years_active": 15
+      },
+      "price": 1000000,
+      "currency": "NGN",
+      "location": "Calabar",
+      "bedroom": 4,
+      "category": "Villa",
+      "address": "8 Marina Road, Calabar"
+    },
+    {
+      "id": "ng-prop-014",
+      "title": "1-Bedroom Serviced Apartment in Ikeja",
+      "details": "Daily cleaning • Wi-Fi • Business center • Airport proximity",
+      "description": "This practical 1-bedroom serviced apartment in Ikeja's business district offers 40sqm of fully-furnished living space ideal for business travelers. The unit includes a queen bed, compact work desk, and kitchenette with microwave and mini-fridge. Building amenities include daily housekeeping, laundry service, and a business center with printing facilities. Located just 10 minutes from MMA2 airport and walking distance to Ikeja City Mall. Landlord Mr. Okafor (former airline executive) understands travelers' needs and offers flexible short-term leases. The neighborhood features numerous restaurants and is secure for solo travelers. Perfect for consultants or frequent visitors needing hassle-free accommodation.",
+      "image":"/housemeproperties/d7f8e2e6-6d01-484c-b32c-360a87960ce0.webp",
+      "landlord": {
+        "name": "Mr. Emeka Okafor",
+        "phone": "+2348123456789",
+        "email": "e.okafort@ikejabusiness.ng",
+        "image": "https://randomuser.me/api/portraits/men/35.jpg",
+        "rating": 4.5,
+        "years_active": 7
+      },
+      "price": 250000,
+      "currency": "NGN",
+      "location": "Lagos",
+      "bedroom": 1,
+      "category": "Serviced Apartment",
+      "address": "15 Oba Akran Ave, Ikeja"
+    },
+    {
+      "id": "ng-prop-015",
+      "title": "5-Bedroom Duplex in Port Harcourt",
+      "details": "Fully furnished • Swimming pool • Generator • GRA location",
+      "description": "This impressive 5-bedroom duplex in Port Harcourt's GRA Phase 2 offers 350sqm of elegant living space. The property features a grand entrance hall, formal living room with fireplace, and a spacious open kitchen with breakfast area. The upstairs includes a family lounge and master suite with dressing room. Outdoors features a swimming pool, barbecue area, and small garden. Landlord Dr. Hart (medical consultant) has furnished the property to international standards and includes a full-time security guard. Located in a quiet neighborhood just 5 minutes from SPAR and 10 minutes from oil company offices. Perfect for expatriate families or corporate housing.",
+      "image":  "/housemeproperties/DESIGN AND VISUALIZATION BY SPACELOCI.jpeg",
+      "landlord": {
+        "name": "Dr. Benjamin Hart",
+        "phone": "+2348134567890",
+        "email": "b.hart@phgra.ng",
+        "image": "https://randomuser.me/api/portraits/men/50.jpg",
+        "rating": 4.7,
+        "years_active": 10
+      },
+      "price": 1100000,
+      "currency": "NGN",
+      "location": "Port Harcourt",
+      "bedroom": 5,
+      "category": "Duplex",
+      "address": "22 Abacha Road, GRA"
+    },
+    {
+      "id": "ng-prop-016",
+      "title": "3-Bedroom Flat in Jos",
+      "details": "Cool climate • Spacious rooms • Backup electricity • Secure",
+      "description": "This comfortable 3-bedroom flat in Jos' Rayfield district offers 150sqm of living space perfect for families. The unit features large windows that provide natural light and cool mountain breezes, a practical kitchen with ample storage, and a small balcony with views of the surrounding hills. The compound includes a shared generator and 24-hour security. Landlord Mrs. Pam (retired teacher) maintains the property meticulously and is known for her fair treatment of tenants. Located in a peaceful neighborhood popular with civil servants and academics, just 10 minutes from Jos Main Market and 15 minutes from tourist sites like Shere Hills. Ideal for those seeking respite from Nigeria's heat.",
+      "image": "/housemeproperties/e4899340-1214-4a4d-af4e-d0597426c864.jpeg",
+      "landlord": {
+        "name": "Mrs. Grace Pam",
+        "phone": "+2348145678901",
+        "email": "g.pam@josproperties.ng",
+        "image": "https://randomuser.me/api/portraits/women/65.jpg",
+        "rating": 4.8,
+        "years_active": 12
+      },
+      "price": 320000,
+      "currency": "NGN",
+      "location": "Jos",
+      "bedroom": 3,
+      "category": "Flat",
+      "address": "10 Yakubu Gowon Way, Jos"
+    },
+    {
+      "id": "ng-prop-017",
+      "title": "2-Bedroom Apartment in Ibadan",
+      "details": "Newly renovated • Close to UI • Teaching hospital proximity",
+      "description": "This freshly renovated 2-bedroom apartment in Ibadan's Bodija estate offers 75sqm of comfortable living space. The unit features new tiling throughout, a modern kitchen with gas cooker, and a small balcony. The compound includes a shared generator and water reservoir. Located just 5 minutes from University of Ibadan and 10 minutes from UCH, making it ideal for academics and medical professionals. Landlord Professor Adeyemi (retired lecturer) understands academic needs and offers flexible lease terms to match the academic calendar. The neighborhood is quiet and secure, with easy access to Bodija Market and several restaurants.",
+      "image": "/housemeproperties/Flats.jpeg",
+      "landlord": {
+        "name": "Professor Tunde Adeyemi",
+        "phone": "+2348156789012",
+        "email": "t.adeyemi@ibadanacademia.ng",
+        "image": "https://randomuser.me/api/portraits/men/70.jpg",
+        "rating": 4.7,
+        "years_active": 15
+      },
+      "price": 2200000,
+      "currency": "NGN",
+      "location": "Ibadan",
+      "bedroom": 2,
+      "category": "Apartment",
+      "address": "7 Awolowo Avenue, Bodija"
+    },
+    {
+      "id": "ng-prop-018",
+      "title": "4-Bedroom Detached House in Owerri",
+      "details": "Serene estate • Borehole • 24/7 security • Gated community",
+      "description": "This spacious 4-bedroom detached house in Owerri's Aladinma Estate offers 250sqm of family-friendly living space. The property features a large living room with fireplace, formal dining area, and a practical kitchen with pantry. The master bedroom includes a walk-in closet and ensuite bathroom. The compound features a small garden and parking for three cars. Landlord Chief Nwachukwu (local businessman) provides a full-time security guard and gardener. Located in a well-planned neighborhood popular with professionals, just 10 minutes from Imo State University and 15 minutes from Owerri Main Market. Ideal for families seeking security and space.",
+      "image": "/housemeproperties/For sale_ 4 bedroom House Lekki Phase 1 Lagos (PID_ NORH103559).jpeg",
+      "landlord": {
+        "name": "Chief Obi Nwachukwu",
+        "phone": "+2348167890123",
+        "email": "o.nwachukwu@owerriestates.ng",
+        "image": "https://randomuser.me/api/portraits/men/55.jpg",
+        "rating": 4.6,
+        "years_active": 10
+      },
+      "price": 600000,
+      "currency": "NGN",
+      "location": "Owerri",
+      "bedroom": 4,
+      "category": "House",
+      "address": "14 Wetheral Road, Owerri"
+    },
+    {
+      "id": "ng-prop-019",
+      "title": "1-Bedroom Mini-Flat in Benin",
+      "details": "Affordable • Functional space • Water supply • Secure",
+      "description": "This compact 1-bedroom mini-flat in Benin's GRA offers 35sqm of practical living space ideal for students or young professionals. The unit includes a combined living/sleeping area, small kitchenette, and basic bathroom. The compound features 24-hour security and shared water supply. Located just 5 minutes from University of Benin and 10 minutes from Benin Main Market. Landlord Mr. Osayande (local businessman) offers some of the most affordable rents in the GRA and is known for working with tenants facing financial difficulties. The neighborhood is safe and well-connected to public transport.",
+      "image": "/housemeproperties/for sale.jpeg",
+      "landlord": {
+        "name": "Mr. Godwin Osayande",
+        "phone": "+2348178901234",
+        "email": "g.osayande@beninproperties.ng",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "rating": 4.4,
+        "years_active": 8
+      },
+      "price": 100000,
+      "currency": "NGN",
+      "location": "Benin",
+      "bedroom": 1,
+      "category": "Mini-Flat",
+      "address": "3 Airport Road, Benin City"
+    },
+    {
+      "id": "ng-prop-020",
+      "title": "3-Bedroom Semi-Detached in Kaduna",
+      "details": "Spacious • Secure • Close to military barracks • Borehole",
+      "description": "This comfortable 3-bedroom semi-detached house in Kaduna's Malali GRA offers 180sqm of living space. The property features a large living room, functional kitchen, and three well-proportioned bedrooms. The compound includes a small garden and parking space for two cars. Located in a secure neighborhood near Nigerian Defence Academy, popular with military personnel and civil servants. Landlord Colonel Ibrahim (retired) maintains the property to high standards and provides reliable water supply. The area is quiet and family-friendly, with good access to schools and markets.",
+      "image": "/housemeproperties/House For Sale In Lekki With Payment Plan at Elizabethbyram.jpeg",
+      "landlord": {
+        "name": "Colonel Ahmed Ibrahim",
+        "phone": "+2348189012345",
+        "email": "a.ibrahim@kadunahomes.ng",
+        "image": "https://randomuser.me/api/portraits/men/60.jpg",
+        "rating": 4.7,
+        "years_active": 12
+      },
+      "price": 400000,
+      "currency": "NGN",
+      "location": "Kaduna",
+      "bedroom": 3,
+      "category": "Semi-Detached",
+      "address": "5 Sultan Road, Kaduna"
+    },
+    {
+      "id": "ng-prop-021",
+      "title": "Luxury 5-Bedroom Villa in Asaba",
+      "details": "River view • Smart home • Private pool • Staff quarters",
+      "description": "This magnificent 5-bedroom villa in Asaba's GRA offers 400sqm of luxurious living space with panoramic views of the River Niger. The property features a grand entrance hall, formal living and dining rooms, and a gourmet kitchen with butler's pantry. The upstairs includes a family lounge and master suite with private balcony. Outdoors features an infinity pool, landscaped gardens, and gazebo. Landlord Chief Okonta (oil magnate) has equipped the home with smart technology and provides full-time staff. Located in Asaba's most prestigious neighborhood, just 10 minutes from the airport and 15 minutes from government offices.",
+      "image":  "./assets/housemeproperties/5 Bedroom House for Sale, Lekki.jpeg",
+      "landlord": {
+        "name": "Chief Michael Okonta",
+        "phone": "+2348190123456",
+        "email": "m.okonta@asabaluxury.ng",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "rating": 4.9,
+        "years_active": 18
+      },
+      "price": 18000000,
+      "currency": "NGN",
+      "location": "Asaba",
+      "bedroom": 5,
+      "category": "Villa",
+      "address": "1 Anwai Road, GRA Asaba"
+    },
+    {
+      "id": "ng-prop-022",
+      "title": "2-Bedroom Terrace in Abeokuta",
+      "details": "Traditional design • Quiet street • Garden • Secure",
+      "description": "This charming 2-bedroom terrace house in Abeokuta's Ibara GRA offers 120sqm of comfortable living space with traditional Yoruba architectural elements. The property features a central courtyard, spacious living area, and compact kitchen. The upstairs bedrooms share a balcony with views of Olumo Rock. Landlord Mrs. Adebajo (local businesswoman) has preserved the property's original character while adding modern comforts. Located in a quiet neighborhood just 5 minutes from Olumo Rock tourist site and 10 minutes from Abeokuta city center. Ideal for those who appreciate cultural heritage and peaceful living.",
+      "image": "/housemeproperties/List of Detached Bungalows for Sale in Thomas Estate, Ajah, Lagos (3).jpeg",
+      "landlord": {
+        "name": "Mrs. Folake Adebajo",
+        "phone": "+2348201234567",
+        "email": "f.adebajo@abeokutatraditional.ng",
+        "image": "https://randomuser.me/api/portraits/women/60.jpg",
+        "rating": 4.5,
+        "years_active": 10
+      },
+      "price": 300000,
+      "currency": "NGN",
+      "location": "Abeokuta",
+      "bedroom": 2,
+      "category": "Terrace",
+      "address": "12 Ibara Housing Estate, Abeokuta"
+    },
+    {
+      "id": "ng-prop-023",
+      "title": "3-Bedroom Flat in Warri",
+      "details": "Oil city location • Fully tiled • Generator • Secure",
+      "description": "This practical 3-bedroom flat in Warri's GRA offers 150sqm of comfortable living space popular with oil company workers. The unit features tiled floors throughout, a spacious living room, and functional kitchen. The compound includes a shared generator and 24-hour security. Landlord Mr. Egbema (former NNPC staff) understands oil workers' needs and offers flexible lease terms. Located in a secure neighborhood just 5 minutes from major oil company offices and 10 minutes from shopping centers. Ideal for mid-level professionals in the oil industry.",
+      "image": "/housemeproperties/Mansion design in Nigeria.webp",
+      "landlord": {
+        "name": "Mr. Johnson Egbema",
+        "phone": "+2348212345678",
+        "email": "j.egbema@warriproperties.ng",
+        "image": "https://randomuser.me/api/portraits/men/50.jpg",
+        "rating": 4.6,
+        "years_active": 12
+      },
+      "price": 380000,
+      "currency": "NGN",
+      "location": "Warri",
+      "bedroom": 3,
+      "category": "Flat",
+      "address": "8 Effurun-Warri Road, Warri"
+    },
+    {
+      "id": "ng-prop-024",
+      "title": "4-Bedroom Duplex in Umuahia",
+      "details": "Modern finish • Ample parking • Quiet area • Secure",
+      "description": "This newly built 4-bedroom duplex in Umuahia's GRA offers 220sqm of modern living space. The property features an open-plan living area, modern kitchen with breakfast bar, and a small garden. The upstairs includes a family lounge and master suite with walk-in closet. Landlord Chief Uche (local contractor) built the property himself using quality materials. Located in a quiet neighborhood popular with government workers, just 5 minutes from Umuahia Main Market and 10 minutes from government offices. Ideal for mid-level civil servants and professionals.",
+      "image": "/housemeproperties/List of Detached Bungalows for Sale in Thomas Estate, Ajah, Lagos (3).jpeg",
+      "landlord": {
+        "name": "Chief Uche Nwankwo",
+        "phone": "+2348223456789",
+        "email": "u.nwankwo@umuahiahomes.ng",
+        "image": "https://randomuser.me/api/portraits/men/55.jpg",
+        "rating": 4.5,
+        "years_active": 8
+      },
+      "price": 550000,
+      "currency": "NGN",
+      "location": "Umuahia",
+      "bedroom": 4,
+      "category": "Duplex",
+      "address": "2 Okpara Avenue, Umuahia"
+    },
+    {
+      "id": "ng-prop-025",
+      "title": "1-Bedroom Loft in Onitsha",
+      "details": "Commercial area • High rental yield • Compact • Secure",
+      "description": "This compact 1-bedroom loft above a bustling Onitsha market offers 30sqm of functional living space ideal for traders. The unit features a sleeping loft, small kitchen area, and basic bathroom. The location provides 24-hour security due to market police presence. Landlord Madam Ngozi (market leader) specializes in affordable commercial-area housing and offers flexible payment plans. Located directly above the textile section of Onitsha Main Market, perfect for traders wanting to live near their businesses. Basic but practical for those prioritizing location over luxury.",
+      "image": "/housemeproperties/Mansion design in Nigeria.webp",
+      "landlord": {
+        "name": "Madam Ngozi Okonkwo",
+        "phone": "+2348234567890",
+        "email": "n.okonkwo@onitshamarket.ng",
+        "image": "https://randomuser.me/api/portraits/women/45.jpg",
+        "rating": 4.3,
+        "years_active": 15
+      },
+      "price": 200000,
+      "currency": "NGN",
+      "location": "Onitsha",
+      "bedroom": 1,
+      "category": "Loft",
+      "address": "15 New Market Road, Onitsha"
+    },
+    {
+      "id": "ng-prop-026",
+      "title": "6-Bedroom Country Home in Enugu",
+      "details": "Large compound • Orchard • Borehole • Peaceful",
+      "description": "This sprawling 6-bedroom country home on the outskirts of Enugu sits on 2 acres of land with fruit trees and vegetable gardens. The 400sqm house features a wraparound veranda, spacious living areas, and a commercial-sized kitchen. The property includes staff quarters, generator house, and water reservoir. Landlord Chief Onoh (retired agriculturalist) maintains the property as a working farm, with tenants enjoying fresh produce. Located 30 minutes from Enugu city center, ideal for those seeking rural tranquility without complete isolation. Perfect for large families or as a weekend retreat.",
+      "image": "/housemeproperties/property showroom-NG on Instagram_ “5 bedroom….jpeg",
+      "landlord": {
+        "name": "Chief Emeka Onoh",
+        "phone": "+2348245678901",
+        "email": "e.onoh@enugucountry.ng",
+        "image": "https://randomuser.me/api/portraits/men/70.jpg",
+        "rating": 4.7,
+        "years_active": 20
+      },
+      "price": 750000,
+      "currency": "NGN",
+      "location": "Enugu",
+      "bedroom": 6,
+      "category": "Country Home",
+      "address": "10 Independence Layout, Enugu"
+    },
+    {
+      "id": "ng-prop-027",
+      "title": "2-Bedroom Flat in Akure",
+      "details": "Newly built • Quiet estate • Water supply • Secure",
+      "description": "This modern 2-bedroom flat in Akure's Alagbaka Estate offers 80sqm of comfortable living space. The unit features tiled floors throughout, a compact kitchen with basic appliances, and a small balcony. The estate includes shared water supply and 24-hour security. Landlord Mr. Adeleke (local builder) constructed the property in 2021 using quality materials. Located in a peaceful neighborhood popular with state government workers, just 5 minutes from Akure Main Market and 10 minutes from government offices. Ideal for mid-level civil servants and professionals.",
+      "image": "/housemeproperties/ROSELINE APARTMENTS.jpeg",
+      "landlord": {
+        "name": "Mr. Tunde Adeleke",
+        "phone": "+2348256789012",
+        "email": "t.adeleke@akureproperties.ng",
+        "image": "https://randomuser.me/api/portraits/men/40.jpg",
+        "rating": 4.5,
+        "years_active": 7
+      },
+      "price": 250000,
+      "currency": "NGN",
+      "location": "Akure",
+      "bedroom": 2,
+      "category": "Flat",
+      "address": "7 Alagbaka Estate, Akure"
+    },
+    {
+      "id": "ng-prop-028",
+      "title": "3-Bedroom Bungalow in Lokoja",
+      "details": "River view • Cool breeze • Secure • Government area",
+      "description": "This comfortable 3-bedroom bungalow in Lokoja's Government Reserved Area offers 180sqm of living space with views of the Niger-Benue confluence. The property features a spacious living room, functional kitchen, and wraparound veranda perfect for enjoying the river breeze. Landlord Alhaji Bello (retired civil servant) maintains the property well and includes a gardener in the rent. Located in a quiet neighborhood of government workers, just 5 minutes from Lokoja Main Market and 10 minutes from government offices. Ideal for civil servants or retirees seeking peaceful living.",
+      "image": "/housemeproperties/Nigerian home.webp",
+      "landlord": {
+        "name": "Alhaji Yusuf Bello",
+        "phone": "+2348267890123",
+        "email": "y.bello@lokojahomes.ng",
+        "image": "https://randomuser.me/api/portraits/men/60.jpg",
+        "rating": 4.6,
+        "years_active": 10
+      },
+      "price": 350000,
+      "currency": "NGN",
+      "location": "Lokoja",
+      "bedroom": 3,
+      "category": "Bungalow",
+      "address": "4 Ganaja Road, Lokoja"
+    },
+    {
+      "id": "ng-prop-029",
+      "title": "4-Bedroom Maisonette in Minna",
+      "details": "Spacious • Modern kitchen • Garden • Secure",
+      "description": "This well-designed 4-bedroom maisonette in Minna's GRA offers 200sqm of comfortable living space. The property features an open-plan living area, modern kitchen with breakfast bar, and a small garden. The upstairs includes a family lounge and master suite with walk-in closet. Landlord Mrs. Kolo (local businesswoman) has furnished the property tastefully and includes a security guard. Located in a quiet neighborhood popular with state government workers, just 5 minutes from Minna Main Market and 10 minutes from government offices. Ideal for mid-level civil servants and professionals.",
+      "image":"/housemeproperties/Luxury Living Home Tour.jpeg",
+      "landlord": {
+        "name": "Mrs. Aisha Kolo",
+        "phone": "+2348278901234",
+        "email": "a.kolo@minnahomes.ng",
+        "image": "https://randomuser.me/api/portraits/women/50.jpg",
+        "rating": 4.5,
+        "years_active": 8
+      },
+      "price": 500000,
+      "currency": "NGN",
+      "location": "Minna",
+      "bedroom": 4,
+      "category": "Maisonette",
+      "address": "9 David Mark Road, Minna"
+    },
+    {
+      "id": "ng-prop-030",
+      "title": "2-Bedroom Flat in Sokoto",
+      "details": "Traditional decor • Cool interiors • Secure • Cultural vibe",
+      "description": "This culturally inspired 2-bedroom flat in Sokoto's GRA offers 90sqm of living space designed for the northern climate. The property features traditional Hausa decorative elements, thick walls that keep interiors cool, and a central courtyard. Landlord Alhaji Sokoto (local traditional leader) has maintained the property's cultural authenticity while adding modern plumbing and electricity. Located in a secure neighborhood just 5 minutes from Sokoto Central Market and 10 minutes from Usmanu Danfodiyo University. Ideal for those who appreciate traditional architecture and cooler northern temperatures.",
+      "image": "/housemeproperties/Luxury duplex house for sale.jpeg",
+      "landlord": {
+        "name": "Alhaji Mohammed Sokoto",
+        "phone": "+2348289012345",
+        "email": "m.sokoto@sokototraditional.ng",
+        "image": "https://randomuser.me/api/portraits/men/75.jpg",
+        "rating": 4.6,
+        "years_active": 15
+      },
+      "price": 200000,
+      "currency": "NGN",
+      "location": "Sokoto",
+      "bedroom": 2,
+      "category": "Flat",
+      "address": "3 Sultan Bello Road, Sokoto"
+    }
+  ],
+  "metadata": {
+    "total": 30,
+    "cities": ["Lagos", "Abuja", "Port Harcourt", "Kano", "Enugu", "Calabar", "Uyo", "Jos", "Ibadan", "Owerri", "Benin", "Kaduna", "Asaba", "Abeokuta", "Warri", "Umuahia", "Onitsha", "Akure", "Lokoja", "Minna", "Sokoto"],
+    "categories": ["Apartment", "Duplex", "Flat", "Mansion", "Bungalow", "Penthouse", "Villa", "Studio", "Serviced Apartment", "Mini-Flat", "Semi-Detached", "Terrace", "Loft", "Country Home", "Maisonette"]
+  }
+}

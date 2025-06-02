@@ -1,0 +1,135 @@
+.signupcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 0;
+  width: 50%;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: white;
+}
+.signupcontainer h1 {
+  font-size: 2.5rem;
+  color: var(--Accent);
+  padding: 1rem 0;
+}
+.signupcontainer p {
+  font-weight: 600;
+}
+.signupcontainer p a {
+  color: var(--text);
+}
+.emailOrfacebookAlt {
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+.emailOrfacebookAlt a {
+  border: 2px solid black;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  color: var(--text);
+  border-radius: 5px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background-color: white;
+}
+.emailOrfacebookAlt a:hover {
+  background-color: var(--text);
+  color: white;
+}
+.horitext {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+  color: grey;
+}
+.horitext hr {
+  width: 150px;
+  height: 2px;
+  margin-top: 10px;
+}
+.signupForm input:focus {
+  box-shadow: 0 0 10px var(--Accente);
+}
+.userfullname {
+  padding: 1.5rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.userfullname input {
+  font-size: 1.1rem;
+  padding: 0.6rem 0.2rem;
+  border: 2px solid lightgrey;
+  outline: transparent;
+  border-radius: 5px;
+  color: grey;
+  width: 200px;
+}
+.signupForm 
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="text"] {
+  width: 78%;
+  font-size: 1.1rem;
+  padding: 0.6rem 0.2rem;
+  border: 2px solid lightgrey;
+  outline: transparent;
+  border-radius: 5px;
+  color: grey;
+  margin: 0.3rem 0;
+  position: relative;
+}
+#showpassword{
+  position: absolute;
+  left: 61%;
+}
+.landorOrtenent {
+  padding: 1.2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.landorOrtenent button {
+  border: 2px solid black;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  color: var(--text);
+  border-radius: 5px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+}
+button.activestatus{
+  background-color: var(--Accent);
+  color: white;
+  border: none;
+}
+.registerButton {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem 0;
+}
+.registerButton input {
+  font-size: 1.1rem;
+  padding: 0.6rem 0.2rem;
+  border-radius: 5px;
+  width: 200px;
+  /* margin:  auto; */
+  background-color: var(--Accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.errortext{
+    color: red;
+    font-weight: 600;
+}

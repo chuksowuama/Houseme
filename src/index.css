@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* .merriweather-sans-<uniquifier> {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+:root {
+  --font--merriweather-sans: "merriweather-sans<uniquifier>";
+  --primary-Color: #424ef5;
+  --Secondary: #63b3ed;
+  --Background: #f7fafc;
+  --Accent: #38b2ac;
+  --text: #2d3748;
+  --headerFontSize:clamp(2rem,6vw,3.5rem)
+}
+.App{
+  background-color: var(--Background);
+  color: var(--text);
+  font-size:clamp(0.9rem,1.2vw,3.5rem);
+  overflow-x: hidden;
+}
+.heroSEC{
+  padding: 0 ;
+}
+section{
+  padding: 1.3rem 1rem;
+}
+.sectitle{
+  font-weight: 600;
+  font-size: clamp(1.5rem,2.2vw,5.5rem);
+  padding: clamp(1rem,2vw,3.5rem);
+  text-transform: capitalize;
+}
+
+h3{
+  font-size: clamp(1.2rem,2vw,3.5rem);
+}
+p{
+  font-size: clamp(1rem,1.2vw,3.5rem);
+}
+.icon{
+  font-size: clamp(2rem,2vw,3.5rem);
+  color: #38b2ac;
+}
+
+/* //this is the gero section for other pages and not the home page */
+.OtherheroContainer{
+  height: 50dvh;
+  width: 100%;
+  box-shadow: 0 0 10px black;
+}
+.OtherheroContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.OtherheroContaine::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15,0.5);
+}
+.removeSearchbar{
+  display: none;
+}
+.otherBigHeaderline{
+  width: 50%;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  animation: fadeIn .3s ease-in-out ;
+  transition: all .3s ease-in-out;
+}
+.otherBigHeaderline h1{
+  color: var(--Background);
+}
+/* ---------------------------------------------------------------------------------------- */
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

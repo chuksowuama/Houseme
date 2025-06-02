@@ -1,0 +1,160 @@
+.searchPropertyContainer {
+  margin-top: 0.7rem;
+}
+.BrowseSearchContainer {
+  width: 100%;
+  background-color: white;
+  padding: 0.7rem 0;
+  border-radius: 5px;
+}
+.BrowseSearchbar {
+  display: flex;
+  gap: 0.3rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+}
+.BrowseSearchArea {
+  width: 59%;
+}
+.BrowseSearchArea input {
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 0 0.6rem;
+  border: none;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 5px 0 0 5px;
+}
+.BrowseFilterArea {
+  display: flex;
+  height: 40px;
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 0.3rem 0.5rem;
+  background-color: white;
+}
+.searchArea {
+  width: 100%;
+}
+.searchArea input {
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 0 0.6rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.searchArea input:focus {
+  border: 1px solid grey;
+}
+.filterArea {
+  display: flex;
+  height: 40px;
+  margin: auto auto;
+}
+select {
+  outline: transparent;
+  margin: 0 0.1rem;
+  background-color: var(--text);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 0 1.5rem;
+}
+#searchButton {
+  width: 10rem;
+  background-color: var(--Accent);
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+  .searchBar {
+    display: flex;
+    border-radius: 5px;
+  }
+  .BrowseSearchbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px grey;
+  }
+  .BrowseSearchArea input {
+    width: 170%;
+    border-radius: 5px;
+  }
+  .BrowseFilterArea {
+    margin: auto auto;
+  }
+  .pricedrop{
+    border-radius: 5px 0 0 5px;
+  }
+  .searchArea {
+    width: 100%;
+  }
+  .searchArea input {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    border: none;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .searchBar {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .BrowseSearchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+    box-shadow: 0 0 5px grey;
+  }
+  .BrowseSearchArea input {
+    width: 170%;
+    border-radius: 5px;
+  }
+  .BrowseFilterArea {
+    width: 100%;
+    display: flex;
+  }
+  .searchArea {
+    background-color: white;
+    width: 100%;
+  }
+   .pricedrop{
+    border-radius: 5px 0 0 5px;
+  }
+  .searchArea input {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    border: none;
+    outline: none;
+    margin: 0.3rem 0;
+  }
+  select {
+    padding: 0.6rem 0;
+  }
+  #searchButton {
+    width: 5rem;
+  }
+}

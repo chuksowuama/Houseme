@@ -1,0 +1,528 @@
+/* Dashboard Base Styles */
+.dashboardcontainer {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+.dashboardheader {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.headercontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboardheader h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.headeractions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.btnnotification {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.notificationbadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userprofile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+   cursor: pointer;
+}
+
+/* Main Layout */
+.dashboardmain {
+  flex: 1;
+  background: #f5f7fa;
+}
+
+.dashboardlayout {
+  display: grid;
+  grid-template-columns: 240px 1fr 280px;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+/* Sidebar Styles */
+.dashboardsidebar {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+.sidebarnav{
+   /* background: linear-gradient(135deg, #2c3e50, #3498db); */
+   z-index: 1;
+   position:static;
+   width: 100%;
+   background: white;
+   margin-top: 10px;
+   border-top: 1px solid grey;
+   padding: 0.6rem 0;
+}
+.sidebarnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarnav li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebarnav button {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: none;
+  color: #7f8c8d;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sidebarnav button:hover {
+  background: #f8f9fa;
+  color: #2c3e50;
+}
+
+.sidebarnav li.active button {
+  background: #3498db;
+  color: white;
+}
+
+/* Performance Summary (Landlord) */
+.performancesummary {
+  margin-bottom: 2rem;
+}
+
+.performancesummary h3 {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+.performancemetric {
+  margin-bottom: 1rem;
+}
+
+.metricvalue {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+}
+
+.metriclabel {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+/* Dashboard Content */
+.dashboardcontent {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+.dashboardsection {
+  margin-bottom: 2rem;
+}
+
+.sectionheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Quick Stats (Landlord) */
+.quickstats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statcard {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.statvalue {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.statlabel {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+/* Property Cards */
+.propertygrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.propertycard {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.4rem;
+}
+
+.Landlordpropertyimage {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.Landlordpropertyimage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btnfavorite {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255,255,255,0.8);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btnfavorite.active {
+  color: #e74c3c;
+}
+
+.propertydetails {
+  padding: 1.25rem;
+}
+
+.propertymeta {
+  display: flex;
+  gap: 1rem;
+  color: #7f8c8d;
+  margin: 0.5rem 0;
+}
+
+.propertyprice {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.propertyactions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+/* Tables */
+.applicationstable table, .paymentslist table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applicationstable th, .paymentslist th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.applicationstable td, .paymentslist td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.statusbadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.statusbadge.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.statusbadge.approved, .statusbadge.paid {
+  background: #d4edda;
+  color: #155724;
+}
+
+.statusbadge.rejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.statusbadge.vacant {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.statusbadge.occupied {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+/* Notifications Panel */
+.dashboardnotifications {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+.notificationsheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.notificationslist {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.notificationitem.unread {
+  background: #f8f9fa;
+  margin: 0 -1rem;
+  padding: 1rem;
+}
+
+.notificationtime {
+  display: block;
+  font-size: 0.75rem;
+  color: #7f8c8d;
+  margin-top: 0.25rem;
+}
+
+/* Tabs */
+.tabsnav {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 1.5rem;
+}
+
+.tabsnav button {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tabsnav button.active {
+  border-bottom-color: #3498db;
+  color: #3498db;
+  font-weight: 600;
+}
+
+/* Tenant Card */
+.tenantcard {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.tenantavatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tenantinfo h3 {
+  margin: 0 0 0.25rem;
+}
+
+.tenantactions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* Maintenance Request Card */
+.requestcard {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.requestheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.requestdetails p {
+  margin: 0.5rem 0;
+}
+
+.priorityhigh {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.requestactions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Reports Grid */
+.reportsgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.reportcard {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.reportchart {
+  height: 200px;
+  background: #f8f9fa;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7f8c8d;
+}
+
+/* Buttons */
+.btnprimary, .btnsecondary, .btnoutline, .btnlink {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnprimary {
+  background: #3498db;
+  color: white;
+  border: none;
+}
+
+.btnprimary:hover {
+  background: #2980b9;
+}
+
+.btn-secondary {
+  background: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.btn-secondary:hover {
+  background: #f8f9fa;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.btn-outline:hover {
+  background: rgba(52, 152, 219, 0.1);
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #3498db;
+  padding: 0;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.text-danger {
+  color: #dc3545;
+}
