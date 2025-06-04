@@ -4,7 +4,7 @@ import Userprofile from "../../COMPONENTS/UserProfilebread/Userprofile";
 import { productContext } from "../../ReactHooksComponent/UsecontextHook";
 import Herosection from "../../COMPONENTS/HerosectionComponent/Herosection";
 import heroImg from "../../assets/HomeHerosection.webp";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import BreadCrumb from "../../COMPONENTS/BreadcrumbsComponents/BreadCrumb";
 
 const TenantsDashboard = () => {
@@ -16,8 +16,12 @@ const TenantsDashboard = () => {
     tenantsApplication,
     Applicationtabfunction,
     applicationtabinfo,
-    Autologinfunc
+    Autologinfunc,
+    UserAuthenticationLogOut,
+    setactiveuser,
+    tenantRemovedprops
   } = useContext(productContext);
+  const navigatebacktoLogin = useNavigate(null);
 
   const [activeTab, setActiveTab] = useState("properties");
   const [notifications, setNotifications] = useState([
@@ -34,9 +38,14 @@ const TenantsDashboard = () => {
       read: true,
     },
   ]);
-  console.log(activeuser)
+  console.log(activeuser);
 
-    
+  function handleLogout() {
+    UserAuthenticationLogOut();
+    setactiveuser([]);
+    navigatebacktoLogin("/login");
+  }
+
   return (
     <>
       <Herosection
@@ -46,13 +55,15 @@ const TenantsDashboard = () => {
         headline="Tenants Dashboard"
         searcharea="removeSearchbar"
       />
-      <BreadCrumb/>
+      <BreadCrumb />
       <div className="dashboardcontainer tenant-dashboard">
         {/* Dashboard Header */}
         <header className="dashboardheader">
           <div className="container">
             <div className="headercontent">
-              <h1>Welcome back, {activeuser.FName} {activeuser.LName}</h1>
+              <h1>
+                Welcome back, {activeuser.FName} {activeuser.LName}
+              </h1>
               <div className="headeractions">
                 <button className="btnnotification">
                   <i class="fa-solid fa-bell"></i>
@@ -73,7 +84,7 @@ const TenantsDashboard = () => {
           <div className="container">
             <div className="dashboardlayout">
               {/* Sidebar Navigation */}
-              <aside className="dashboardsidebar">
+              <aside className="Tenantdashboardsidebar">
                 <nav className="sidebarnav">
                   <ul>
                     <li className={activeTab === "properties" ? "active" : ""}>
@@ -103,6 +114,12 @@ const TenantsDashboard = () => {
                         <i className="icon-settings"></i> Settings
                       </button>
                     </li>
+                    <li className={activeTab === "logout" ? "active" : ""}>
+                      <button onClick={handleLogout}>
+                        <i className="iconchart"></i> Logout
+                      </button>
+                    </li>
+                    `
                   </ul>
                 </nav>
 
@@ -118,7 +135,7 @@ const TenantsDashboard = () => {
               </aside>
 
               {/* Main Content Area */}
-              <div className="dashboardcontent">
+              <div className="TenantDashboardcontent">
                 {/* Dashboard Overview Cards */}
                 {activeTab === "properties" && (
                   <>
@@ -131,9 +148,6 @@ const TenantsDashboard = () => {
                               <div className="propertycard" key={property.id}>
                                 <div className="propertyimage">
                                   <img src={property.image} alt="" />
-                                  <button className="btn-favorite active">
-                                    <i className="fa-solid fa-heart"></i>
-                                  </button>
                                 </div>
                                 <div className="tenantPropertyinfo">
                                   <div className="propertydetails">
@@ -161,6 +175,14 @@ const TenantsDashboard = () => {
                                       >
                                         Apply Now
                                       </button>
+                                      <button
+                                        className="btnprimarydel"
+                                        onClick={() =>
+                                          tenantRemovedprops(property.id)
+                                        }
+                                      >
+                                        Delete
+                                      </button>
                                     </div>
                                   </div>
                                 </div>
@@ -172,16 +194,8 @@ const TenantsDashboard = () => {
                     </section>
 
                     <section className="dashboardsection">
-                      <h2>Recommended For You</h2>
                       <div className="propertygrid">
                         {/* Similar property cards would be rendered here */}
-                        <div className="emptystate">
-                          <p>
-                            Complete your profile to get personalized
-                            recommendations
-                          </p>
-                          <button className="btnoutline">Update Profile</button>
-                        </div>
                       </div>
                     </section>
                   </>
@@ -209,7 +223,14 @@ const TenantsDashboard = () => {
                                 <span>{props.status}</span>
                               </td>
                               <td>
-                                 <Link to={`/Details/${props.id}`} className="CardLink"><button className="btnlink">View Details</button></Link>
+                                <Link
+                                  to={`/Details/${props.id}`}
+                                  className="CardLink"
+                                >
+                                  <button className="btn-link">
+                                    View Details
+                                  </button>
+                                </Link>
                               </td>
                             </tr>
                           ))}
@@ -280,7 +301,7 @@ const TenantsDashboard = () => {
                         <button>Security</button>
                         <button>Preferences</button>
                       </div>
-                     </div>
+                    </div>
                   </section>
                 )}
               </div>
@@ -288,8 +309,8 @@ const TenantsDashboard = () => {
               {/* Notifications Panel */}
               <aside className="dashboardnotifications">
                 <div className="notificationsheader">
-                  <h3>Notifications</h3>
-                  <button className="btnlink">Mark all as read</button>
+                  <h5>Notifications</h5>
+                  <button className="btn-link">Mark all as read</button>
                 </div>
                 <div className="notificationslist">
                   {notifications.map((notification) => (

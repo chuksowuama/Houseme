@@ -44,13 +44,17 @@ const LoginPage = () => {
 
   function submitLoginForm(e) {
     e.preventDefault();
-    const loginuserdata = JSON.parse(localStorage.getItem("Loginuserdata")); //this is incase i want to store userInformation into local storage
+    const loginuserdata = JSON.parse(localStorage.getItem("Loginuserdata")|| "[]"); //this is incase i want to store userInformation into local storage
+    // let allusers = JSON.parse(localStorage.getItem("alluser"))
+    console.log(loginuserdata)
     const formerror = validation();
     if (Object.keys(formerror).length === 0) {
-      let matcheduser=userdata||loginuserdata
+      // let matcheduser=allusers.find(user=> user.Email === FormDetails.Email && user.password === FormDetails.password)
+      let matcheduser=userdata|| loginuserdata
        if(matcheduser && matcheduser.Email===FormDetails.Email && matcheduser.password === FormDetails.password){
         protectedPage(matcheduser)
         localStorage.setItem("activeUser",JSON.stringify(matcheduser))
+        // localStorage.setItem("alluser",JSON.stringify(matcheduser))
         if(matcheduser.profilestatus === "Landlord"){
            navigatetoDashboard("/LandlordDash");
            console.log("landlord logged in")

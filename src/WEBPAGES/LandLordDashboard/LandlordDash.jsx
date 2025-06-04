@@ -67,7 +67,7 @@ const LandlordDash = () => {
         <div className="container">
           <div className="dashboardlayout">
             {/* Sidebar Navigation */}
-            <aside className="dashboardsidebar">
+            <aside className="Landlord-dashboardsidebar">
               <div className="performancesummary">
                 <h3>Monthly Performance</h3>
                 <div className="performancemetric">
@@ -88,37 +88,32 @@ const LandlordDash = () => {
                 <ul>
                   <li className={activeTab === 'properties' ? 'active' : ''}>
                     <button onClick={() => setActiveTab('properties')}>
-                      <i className="iconhome"></i> Properties
+                      <i className="fa-solid fa-home"></i> Properties
                     </button>
                   </li>
                   <li className={activeTab === 'applications' ? 'active' : ''}>
                     <button onClick={() => setActiveTab('applications')}>
-                      <i className="icondocument"></i> Applications
+                      <i className="fa-solid fa-file"></i> Applications
                     </button>
                   </li>
                   <li className={activeTab === 'tenants' ? 'active' : ''}>
                     <button onClick={() => setActiveTab('tenants')}>
-                      <i className="iconusers"></i> Tenants
+                      <i className="fa-solid fa-user"></i> Tenants
                     </button>
                   </li>
                   <li className={activeTab === 'payments' ? 'active' : ''}>
                     <button onClick={() => setActiveTab('payments')}>
-                      <i className="iconcreditcard"></i> Payments
+                      <i class="fa-solid fa-credit-card"></i> Payments
                     </button>
                   </li>
                   <li className={activeTab === 'maintenance' ? 'active' : ''}>
                     <button onClick={() => setActiveTab('maintenance')}>
-                      <i className="icontool"></i> Maintenance
-                    </button>
-                  </li>
-                  <li className={activeTab === 'reports' ? 'active' : ''}>
-                    <button onClick={() => setActiveTab('reports')}>
-                      <i className="iconchart"></i> Reports
+                      <i class="fa-solid fa-wrench"></i> Maintenance
                     </button>
                   </li>
                    <li className={activeTab === 'logout' ? 'active' : ''}>
                     <button onClick={handleLogout}>
-                      <i className="iconchart"></i> Logout
+                      <i className="fa-solid fa-sign-out"></i> Logout
                     </button>
                   </li>
                 </ul>
@@ -126,7 +121,7 @@ const LandlordDash = () => {
             </aside>
 
             {/* Main Content Area */}
-            <div className="dashboardcontent">
+            <div className="landlord-dashboardcontent">
               {/* Quick Stats */}
               <div className="quickstats">
                 <div className="statcard">
@@ -209,11 +204,11 @@ const LandlordDash = () => {
                                 </span>
                               </td>
                               <td>
-                                <button className="btnlink">View</button>
+                                <button className="btn-link">View</button>
                                 {app.status === 'Pending' && (
                                   <>
-                                    <button className="btnlink textsuccess">Approve</button>
-                                    <button className="btnlink textdanger">Reject</button>
+                                    <button className="btn-link textsuccess">Approve</button>
+                                    <button className="btn-link textdanger">Reject</button>
                                   </>
                                 )}
                               </td>
@@ -241,8 +236,8 @@ const LandlordDash = () => {
                         <p>Lease ends: June 30, 2024</p>
                       </div>
                       <div className="tenantactions">
-                        <button className="btnsecondary">Message</button>
-                        <button className="btnlink">View Lease</button>
+                        <button className="btn-secondary">Message</button>
+                        <button className="btn-link">View Lease</button>
                       </div>
                     </div>
                   </div>
@@ -306,38 +301,10 @@ const LandlordDash = () => {
                           <p><strong>Priority:</strong> <span className="priorityhigh">High</span></p>
                         </div>
                         <div className="requestactions">
-                          <button className="btnsecondary">Assign Vendor</button>
-                          <button className="btnprimary">Mark In Progress</button>
+                          <button className="btn-secondary">Assign Vendor</button>
+                          <button className="btn-primary">Mark In Progress</button>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </section>
-              )}
-
-              {activeTab === 'reports' && (
-                <section className="dashboardsection">
-                  <h2>Reports & Analytics</h2>
-                  <div className="reportsgrid">
-                    <div className="reportcard">
-                      <h3>Income Report</h3>
-                      <div className="reportchart"></div>
-                      <button className="btnlink">View Full Report</button>
-                    </div>
-                    <div className="reportcard">
-                      <h3>Occupancy Rate</h3>
-                      <div className="reportchart"></div>
-                      <button className="btnlink">View Full Report</button>
-                    </div>
-                    <div className="reportcard">
-                      <h3>Expense Breakdown</h3>
-                      <div className="reportchart"></div>
-                      <button className="btnlink">View Full Report</button>
-                    </div>
-                    <div className="reportcard">
-                      <h3>Maintenance Costs</h3>
-                      <div className="reportchart"></div>
-                      <button className="btnlink">View Full Report</button>
                     </div>
                   </div>
                 </section>
@@ -347,8 +314,8 @@ const LandlordDash = () => {
             {/* Notifications Panel */}
             <aside className="dashboardnotifications">
               <div className="notificationsheader">
-                <h3>Notifications</h3>
-                <button className="btnlink">Mark all as read</button>
+                <h5>Notifications</h5>
+                <button className="btn-link">Mark all as read</button>
               </div>
               <div className="notificationslist">
                 {notifications.map(notification => (

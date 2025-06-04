@@ -15,7 +15,7 @@ const UsecontextHook = (props) => {
   const [activeuser, setactiveuser] = useState([]);
   const [tenantsavedProperty, setTenantsavedProperty] = useState({});
   const [tenantsApplication, setTenantsApplication] = useState({});
-  const[applicationtabinfo,setapplicationtabinfo]=useState({})
+  const [applicationtabinfo, setapplicationtabinfo] = useState({});
 
   async function fetchProperties() {
     try {
@@ -53,20 +53,20 @@ const UsecontextHook = (props) => {
   //signupfor authentification---------//
   function UserAuthenticationLogin(newUser) {
     setUserdata(newUser);
-    localStorage.setItem("Loginuserdata",JSON.stringify(newUser))
-     const allusers=JSON.parse(localStorage.getItem("alluser")|| "[]")
+    localStorage.setItem("Loginuserdata", JSON.stringify(newUser) || "[]");
+    //  const allusers=JSON.parse(localStorage.getItem("alluser")|| "[]")
 
-     let finalUserlist;
-     const thisUserexiist=allusers.some(user=>user.Email===newUser.Email)
-     if(thisUserexiist){
-       finalUserlist=allusers.map(user=>
-      user.Email === newUser.Email?newUser : user
-     ); 
-     }else{
-      finalUserlist=[...allusers,newUser]
-     }
-     localStorage.setItem("alluser",JSON.stringify(finalUserlist))
-     console.log(finalUserlist)
+    //  let finalUserlist;
+    //  const thisUserexiist=allusers.some(user=>user.Email===newUser.Email)
+    //  if(thisUserexiist){
+    //    finalUserlist=allusers.map(user=>
+    //   user.Email === newUser.Email?newUser : user
+    //  );
+    //  }else{
+    //   finalUserlist=[...allusers,newUser]
+    //  }
+    //  localStorage.setItem("alluser",JSON.stringify(finalUserlist))
+    //  console.log(finalUserlist)
   }
 
   function UserAuthenticationLogOut(userdata) {
@@ -80,14 +80,14 @@ const UsecontextHook = (props) => {
     setactiveuser(user);
   }
 
- useEffect(()=>{
-   const savedactiveuser= JSON.parse(localStorage.getItem("activeUser")) 
-   if(savedactiveuser){
-    setactiveuser(savedactiveuser)
-   }
- },[])
+  useEffect(() => {
+    const savedactiveuser = JSON.parse(localStorage.getItem("activeUser"));
+    if (savedactiveuser) {
+      setactiveuser(savedactiveuser);
+    }
+  }, []);
 
-console.log("this is the updated: ",activeuser)
+  console.log("this is the updated: ", activeuser);
   //featured property for the featured component------
   useEffect(() => {
     const FeaturedProps = properties.slice(10, 16);
@@ -118,21 +118,31 @@ console.log("this is the updated: ",activeuser)
       }));
     }
   }
+
+  function tenantRemovedprops(PropId) {
+    setTenantsavedProperty((prev) => ({
+      ...prev,
+      [PropId]: prev[PropId] - 1,
+    }));
+  }
+
   function Applicationtabfunction(propID) {
     if (!tenantsApplication[propID]) {
       setTenantsApplication((prev) => ({ ...prev, [propID]: 1 }));
     }
   }
 
-  useEffect(()=>{
-    const applicationstab=properties.filter((property)=> tenantsApplication.hasOwnProperty(property.id)).map((property)=>({
+  useEffect(() => {
+    const applicationstab = properties
+      .filter((property) => tenantsApplication.hasOwnProperty(property.id))
+      .map((property) => ({
         id: property.id,
         title: property.title,
         status: "pending",
         Date: new Date().toLocaleDateString(),
-    }))
-    setapplicationtabinfo(applicationstab)
-  },[tenantsApplication,properties])
+      }));
+    setapplicationtabinfo(applicationstab);
+  }, [tenantsApplication, properties]);
   const ContextValue = {
     properties,
     FeaturedProperties,
@@ -150,6 +160,7 @@ console.log("this is the updated: ",activeuser)
     activeuser,
     setactiveuser,
     tenantSavedprops,
+    tenantRemovedprops,
     tenantsavedProperty,
     tenantsApplication,
     Applicationtabfunction,

@@ -2,11 +2,11 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import "./Userprofile.css";
 import { productContext } from "../../ReactHooksComponent/UsecontextHook";
 import { Link } from "react-router-dom";
-
+import defaultImg from "../../assets/avatar3.png"
 const Userprofile = ({disable=false}) => {
   const { setUserdata, setactiveuser, activeuser } = useContext(productContext);
   const profileinput =useRef(null)
-  const [profileImage, setprofileImage]= useState("/landlordavatar.jpg");
+  const [profileImage, setprofileImage]= useState(defaultImg);
   function handlechangeavatar(e) {
     const file = e.target.files[0];
   if (!file) return; // If no file selected, do nothing
@@ -51,6 +51,7 @@ const Userprofile = ({disable=false}) => {
       setactiveuser(updatedUser) //update active user with new image
        localStorage.setItem("Loginuserdata",JSON.stringify(updatedUser))// save the updated user to  local storage
        localStorage.setItem("activeUser",JSON.stringify(updatedUser))
+       localStorage.setItem("alluser",JSON.stringify(updatedUser)) // saves the updated user to alluser in local storage
     };
     img.src = event.target.result; // Load the image
   };

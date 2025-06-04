@@ -100,7 +100,7 @@ const ListingPage = () => {
               <section className="form-section">
                 <h2>Basic Information</h2>
                  <div className="form-section">
-                  <div className="form-group">
+                  <div className="form-group ">
                     <label htmlFor="propertyTitle">property Title </label>
                     <input type="text" name="title" id="propertyTitle" value={formData.title} onChange={handlelistingInput}/>
                   </div>

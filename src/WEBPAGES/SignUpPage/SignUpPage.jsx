@@ -62,7 +62,7 @@ const SignUpPage = () => {
     const formerror = signupValidation();
     if (Object.keys(formerror).length === 0) {
       UserAuthenticationLogin(FormDetails);
-      console.log(FormDetails)
+      console.log("this is place is suppose to display the form")
       navigatetologin("/login")
     } else {
       setErrorinput(formerror);

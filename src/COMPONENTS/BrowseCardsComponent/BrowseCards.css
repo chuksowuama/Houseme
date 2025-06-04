@@ -19,7 +19,16 @@
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   transition: all 0.3s ease-in-out;
+  position: relative;
 }
+.likedProps{
+  z-index: 1;
+}
+.likedProps i{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
 .browsecardImg img:hover {
   transform: scale(1.1);
   filter: brightness(1);
@@ -65,14 +74,6 @@
   width: 30px;
   height: 30px;
   object-fit: cover;
-}
-.savedpropertyBtn{
-  background-color:var(--Accent);
-  padding:0.4rem 1.5rem ;
-  color: white;
-  border-radius: 0.3rem;
-  border: none;
-  cursor: pointer;
 }
 @media (min-width: 601px) and (max-width: 950px) {
   .browsecard {
