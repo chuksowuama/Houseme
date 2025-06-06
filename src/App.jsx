@@ -7,14 +7,16 @@ import ListingPage from "./WEBPAGES/ListingPage/ListingPage"
 import SignUpPage from "./WEBPAGES/SignUpPage/SignUpPage"
 import LoginPage from "./WEBPAGES/LoginPage/LoginPage"
 import BrowsePage from "./WEBPAGES/BrowsePage/BrowsePage"
-import { useEffect } from "react"
+import { useContext, useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import Footer from "./COMPONENTS/FooterComponent/Footer"
 import Details from "./WEBPAGES/DetailPage/Details"
 import ProtectedRoute from "./ProtectedRoute"
+import { productContext } from "./ReactHooksComponent/UsecontextHook"
 
 function App() {
+   const{properties}=useContext(productContext)
   
   useEffect(()=>{
    Aos.init({duration:2000})
@@ -27,7 +29,7 @@ function App() {
      <Routes>
       {/* ----------------Navlist---------------------- */}
       <Route path="/" element={<HomePage/>}/>
-      <Route path= "/browse" element={<BrowsePage/>}/>
+      <Route path= "/browse" element={properties?<BrowsePage/>:"Loading---"}/>
       <Route path="/list-property" element={<ProtectedRoute allowedStatus={['Landlord']}><ListingPage/></ProtectedRoute>}/>
       <Route path="/signup" element={<SignUpPage/>}/>
       <Route path= "/login" element={<LoginPage/>}/>

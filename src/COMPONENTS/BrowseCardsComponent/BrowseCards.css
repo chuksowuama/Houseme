@@ -130,8 +130,12 @@
   }
   .browsecardImg {
     width: 100%;
-    height:auto;
+    height:300px;
     object-fit: cover;
+  }
+  .browsecardImg img{
+    width: 100%;
+    height: 100%;
   }
   .browsecardInfoTop {
     flex-wrap: wrap;
