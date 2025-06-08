@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { productContext } from "../../ReactHooksComponent/UsecontextHook";
-import PropertyCards from "../../COMPONENTS/PropertyCards/PropertyCards";
+import PropertyCards from "../PropertyCards/PropertyCards";
 import "./Propertylist.css";
 import SearchProperty from "../SearchPropertyComponent/SearchProperty";
 import BrowseCards from "../BrowseCardsComponent/BrowseCards";
@@ -20,7 +20,7 @@ const Propertylist = () => {
 
   // const{filteredProperties}=location.state|| {}
 
-  const displayProperties = filteredProperties ?? properties;
+  const displayProperties =properties?? filteredProperties;
 
   const totalPages = Math.ceil(displayProperties.length / itemsperpage);
   const indexofLastitem = currentpage * itemsperpage;

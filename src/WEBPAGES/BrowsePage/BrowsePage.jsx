@@ -9,7 +9,6 @@ import BreadCrumb from "../../COMPONENTS/BreadcrumbsComponents/BreadCrumb";
 
 const BrowsePage = () => {
   const headerLocation=useLocation()
-  console.log(headerLocation)
  
   return (
     <>
