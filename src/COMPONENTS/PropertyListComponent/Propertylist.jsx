@@ -20,7 +20,7 @@ const Propertylist = () => {
 
   // const{filteredProperties}=location.state|| {}
 
-  const displayProperties =properties?? filteredProperties;
+  const displayProperties =Array.isArray(filteredProperties)&&filteredProperties?.length>0? filteredProperties: Array.isArray(properties)?properties:[];
 
   const totalPages = Math.ceil(displayProperties.length / itemsperpage);
   const indexofLastitem = currentpage * itemsperpage;
@@ -29,6 +29,12 @@ const Propertylist = () => {
   useEffect(()=>{
     console.log(currentindexofbedroom)
   },[currentindexofbedroom])
+
+    if (!Array.isArray(properties)) {
+      console.log("properties is not an array",properties)
+    return <p style={{ textAlign: "center", padding: "2rem" }}>Loading properties...</p>;
+  }
+
   return (
     <>
       <h4>{displayProperties.length} properties found</h4>
